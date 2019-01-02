@@ -8,7 +8,15 @@ Either download hoverable.js, add it to your project file structure and link to 
 
 Or use the cdn hosted version of the library by adding the following script tag to the bottom of your html body(before your main script): <script src="https://cdn.jsdelivr.net/gh/Austin-Hoyle/hoverable.js@v0.90/hoverable.js"></script>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+
+
+## How To Use
+
+Hoverable gives you access to two main functions,  hover() and hover_advanced(hover_settings_list).
+
+### hover()
+
 
 ```javascript
 {
@@ -53,36 +61,8 @@ These instructions will get you a copy of the project up and running on your loc
 }
 ```
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 
 ## Authors
