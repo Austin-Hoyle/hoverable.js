@@ -130,6 +130,7 @@ hover_advanced(hover_settings_list) allows you to use any number of custom class
 
 Example:
 
+### javascript (step 1):
 
 ```javascript
 hover_advanced([{
@@ -173,9 +174,12 @@ hover_advanced([{
         }
     }]);
 ```
+### html (step 2):
 
-
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 
 ## Authors
