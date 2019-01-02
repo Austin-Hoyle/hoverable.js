@@ -41,8 +41,27 @@ You can choose to style your elements using their classes from the above table, 
 
 Example:
 
-###html
+### javascript (step 1):
+```javascript
+    hover();
+```
+
+### html (step 2):
+```html
     <h3 class="hover-chars">My Name is Austin Hoyle..</h3>
+```
+
+### css (step 3):
+```css
+    .hover_item{
+        transition: transform .2s, color .4s;
+        display: inline-block;
+    }
+    .hover_item:hover{
+        transform: scale(1.3);
+        color: rgba(77, 184, 255, 1);
+    }
+```
 
 
 
