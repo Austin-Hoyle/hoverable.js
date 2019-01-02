@@ -1,4 +1,4 @@
-![Hoverable.JS](/hoverable.js-medium.png?raw=true "Title")
+![Hoverable.JS](/hoverable.js-small.png?raw=true "Title")
 
 A lightweight Javascript library providing easy to use hover functionalities for text and other elements.
 
