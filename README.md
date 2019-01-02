@@ -21,20 +21,23 @@ Hoverable gives you access to two main functions,  hover() and hover_advanced(ho
 
 1. Call hover at the beginning of your own script(only needs to be called once).
 2. Apply recognized hoverable class to an element based on your text parsing needs (one class per element).
-3. In your css apply styles to one of the four approved classes or the universal .hover-item class.
+3. In your css apply styles to one of the four approved classes or the universal .hover_item class.
+
+That's it!!
 
 The hover function takes no arguments, simply call it at the beginning of of your main script.  If you use jquery call it at the beginning of your $(document).ready clause.
 
 When called the hover function searches for four classes. (.hover, .hover-chars, .hover-words, .hover-phrase).  Apply a class to an element based on how you would like to parse the text.
 
-| Class         | Effect        |
-| ------------- | ------------- |
-| .hover        | No text parsing. Apply effects to entire element. |
-| .hover-chars  | Apply effects to every letter in text.  |
-| .hover-words  | Apply effects to each word in text.  |
-| .hover-phrase | Apply effects to entire phrase.  |
+| Notable Classes| Effect        |Use In..|
+| ------------- | ------------- |-----|
+| .hover        | No text parsing. Apply effects to entire element. |HTML|
+| .hover-chars  | Apply effects to every letter in text.  |HMTL|
+| .hover-words  | Apply effects to each word in text.  |HTML|
+| .hover-phrase | Apply effects to entire phrase.  |HTML|
+| .hover_item | Apply effects to entire phrase.  |CSS only|
 
-
+You can choose to style your elements using their classes from the above table, or you can style all hoverable elements at once using the universal .hover_item class.
 
 
 
