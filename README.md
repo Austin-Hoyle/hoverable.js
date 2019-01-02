@@ -43,7 +43,7 @@ When called the hover function searches for four classes. (.hover, .hover-chars,
 
 You can choose to style your elements using their classes from the above table, or you can style all hoverable elements at once using the universal .hover_item class.
 
-Example:
+### Example:
 
 ### javascript (step 1):
 ```javascript
@@ -122,7 +122,7 @@ hover_advanced(hover_settings_list) allows you to use any number of custom class
 ```
 
 
-Example:
+### Example:
 
 ### javascript (step 1):
 
