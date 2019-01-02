@@ -76,49 +76,102 @@ Example:
 &nbsp;
 ### hover_advanced(hover_settings_list)
 
+hover_advanced(hover_settings_list) allows you to use any number of custom classes, and also allows you to easily configure your hover effects using json, avoiding css completely if you wish.
+
+1. Call hover_advanced(hover_settings_list) at the beginning of your own script(only needs to be called once).
+2. Apply your custom classes to desired html elements.
+
+### Hover_Settings template
+!Important: This is the required format for the input json.  Do not add or remove nodes, simply edit the available settings as you see fit. You will pass a list of one or more of these objects to hover_advanced.
+
+```javascript
+    {
+        classes: ["hover_class_1"], //string list of classes you want to apply these effects to
+        parse_settings: {
+            parse_mode: null,  //parse_mode options ["letters", "words", "phrase"] leave null for no text parsing(images/divs etc.)
+        },
+        hover_effects: {
+            transform_transition_time: 1,  //this controls vertical_shift, horizontal_shift, rotate and scale (all transform properties)
+            vertical_shift: {
+                active: false,
+                value: "30px", //example formats["10px", "10%", "10vh"]
+            },
+            horizontal_shift: {
+                active: false,
+                value: "30px", //example formats["10px", "10%", "10vw"]
+            },
+            rotate: {
+                active: true,
+                degrees: 5,
+            },
+            scale: {
+                active: true,
+                scale_factor: 1.2,
+            },
+            opacity: {
+                active: true,
+                transition_time: .3,
+                value: .4, //0 to 1
+            },
+            color: {
+                active: true,
+                transition_time: .3,
+                color: "red", //example formats["red", "rgba(255,0,0,1)"]
+            },
+            text_decoration: {
+                active: true,
+                transition_time: .3,
+                value: "underline",
+            },
+        }
+    }
+```
+
+
+Example:
 
 
 ```javascript
-{
-    classes: ["hover_class_1"], //string list of classes you want to apply these effects to
-    parse_settings: {
-        parse_mode: null, //parse_mode options ["letters", "words", "phrase"] leave null for no text parsing(images/divs etc.)
-    },
-    hover_effects: {
-        transform_transition_time: 1, //this controls vertical_shift, horizontal_shift, rotate and scale (all transform properties)
-        vertical_shift: {
-            active: false,
-            value: "30px", //example formats["10px", "10%", "10vh"]
+hover_advanced([{
+        classes: ["hover_class_1"], //string list of classes you want to apply these effects to
+        parse_settings: {
+            parse_mode: null,  //parse_mode options ["letters", "words", "phrase"] leave null for no text parsing(images/divs etc.)
         },
-        horizontal_shift: {
-            active: false,
-            value: "30px", //example formats["10px", "10%", "10vw"]
-        },
-        rotate: {
-            active: true,
-            degrees: 5,
-        },
-        scale: {
-            active: true,
-            scale_factor: 1.2,
-        },
-        opacity: {
-            active: true,
-            transition_time: .3,
-            value: .4, //0 to 1
-        },
-        color: {
-            active: true,
-            transition_time: .3,
-            color: "red", //example formats["red", "rgba(255,0,0,1)"]
-        },
-        text_decoration: {
-            active: true,
-            transition_time: .3,
-            value: "underline",
-        },
-    }
-}
+        hover_effects: {
+            transform_transition_time: 1,  //this controls vertical_shift, horizontal_shift, rotate and scale (all transform properties)
+            vertical_shift: {
+                active: false,
+                value: "30px", //example formats["10px", "10%", "10vh"]
+            },
+            horizontal_shift: {
+                active: false,
+                value: "30px", //example formats["10px", "10%", "10vw"]
+            },
+            rotate: {
+                active: true,
+                degrees: 5,
+            },
+            scale: {
+                active: true,
+                scale_factor: 1.2,
+            },
+            opacity: {
+                active: true,
+                transition_time: .3,
+                value: .4, //0 to 1
+            },
+            color: {
+                active: true,
+                transition_time: .3,
+                color: "red", //example formats["red", "rgba(255,0,0,1)"]
+            },
+            text_decoration: {
+                active: true,
+                transition_time: .3,
+                value: "underline",
+            },
+        }
+    }]);
 ```
 
 
