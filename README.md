@@ -6,7 +6,7 @@ A lightweight Javascript library providing easy to use hover functionalities for
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-```json
+```javascript
 {
     classes: ["hover_class_1"], //string list of classes you want to apply these effects to
     parse_settings: {
