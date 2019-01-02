@@ -4,6 +4,8 @@ A lightweight Javascript library providing easy to use hover functionalities for
 
 Text functionalities include hover funcitons per letter, per word and per entire phrase.
 
+&nbsp;&nbsp;&nbsp;&nbsp;
+
 ## Add Hoverable To Your Project
 
 Either download hoverable.js, add it to your project file structure and link to it with a script tag...  
@@ -11,11 +13,16 @@ Either download hoverable.js, add it to your project file structure and link to 
 Or use the cdn hosted version of the library by adding the following script tag to the bottom of your html body(before your main script): <script src="https://cdn.jsdelivr.net/gh/Austin-Hoyle/hoverable.js@v0.90/hoverable.js"></script>
 
 
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ## How To Use
 
+&nbsp;
 Hoverable gives you access to two main functions,  hover() and hover_advanced(hover_settings_list).
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 ### hover()
 
@@ -63,6 +70,11 @@ Example:
     }
 ```
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+### hover_advanced(hover_settings_list)
 
 
 
@@ -115,7 +127,7 @@ Example:
 
 ## Authors
 
-* **Austin Hoyle** - *Initial work*
+* **Austin Hoyle**
 
 ## License
 
