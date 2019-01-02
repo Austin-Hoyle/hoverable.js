@@ -4,6 +4,9 @@ A lightweight Javascript library providing easy to use hover functionalities for
 
 ## Getting Started
 
+#To add Hoverable to your project..
+    Add this script tag to the bottom of your html body(before your main script): https://cdn.jsdelivr.net/gh/user/repo@version/file
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ```javascript
