@@ -175,6 +175,9 @@ hover_advanced([{
     }]);
 ```
 ### html (step 2):
+```html
+    <h3 class="hover_class_1">Let's Work Together</h3>
+```
 
 &nbsp;
 &nbsp;
