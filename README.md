@@ -2,6 +2,8 @@
 
 A lightweight Javascript library providing easy to use hover functionalities for text and other elements.
 
+Text functionalities include hover funcitons per letter, per word and per entire phrase.
+
 ## Add Hoverable To Your Project
 
 Either download hoverable.js, add it to your project file structure and link to it with a script tag...  
@@ -16,7 +18,19 @@ Or use the cdn hosted version of the library by adding the following script tag 
 Hoverable gives you access to two main functions,  hover() and hover_advanced(hover_settings_list).
 
 ### hover()
-    The hover function takes no arguments, simply call it at the beginning of of your main script.  If you use jquery call it at the beginning of your $(document).ready(function(){}); clause.
+
+The hover function takes no arguments, simply call it at the beginning of of your main script.  If you use jquery call it at the beginning of your $(document).ready clause.
+
+When called the hover function searches for four classes. (.hover, .hover-chars, .hover-words, .hover-phrase)
+
+| Class         | Effect        |
+| ------------- | ------------- |
+| .hover        | No text parsing. Apply effects to entire element. |
+| .hover-chars  | Apply effects to every letter in text.  |
+| .hover-words  | Apply effects to each word in text.  |
+| .hover-phrase | Apply effects to entire phrase.  |
+
+
 
 
 ```javascript
