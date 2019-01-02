@@ -6,7 +6,7 @@ A lightweight Javascript library providing easy to use hover functionalities for
 
 Either download hoverable.js, add it to your project file structure and link to it with a script tag...  
 
-Or use the cdn hosted version of the library by adding the following script tag to the bottom of your html body(before your main script): https://cdn.jsdelivr.net/gh/Austin-Hoyle/hoverable.js@v.90/hoverable.js
+Or use the cdn hosted version of the library by adding the following script tag to the bottom of your html body(before your main script): <script src="https://cdn.jsdelivr.net/gh/Austin-Hoyle/hoverable.js@v.90/hoverable.js"></script>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
