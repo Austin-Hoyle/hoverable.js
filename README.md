@@ -6,13 +6,14 @@ A lightweight Javascript library providing easy to use hover functionalities for
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+```json
 {
     classes: ["hover_class_1"], //string list of classes you want to apply these effects to
     parse_settings: {
-        parse_mode: null,  //parse_mode options ["letters", "words", "phrase"] leave null for no text parsing(images/divs etc.)
+        parse_mode: null, //parse_mode options ["letters", "words", "phrase"] leave null for no text parsing(images/divs etc.)
     },
     hover_effects: {
-        transform_transition_time: 1,  //this controls vertical_shift, horizontal_shift, rotate and scale (all transform properties)
+        transform_transition_time: 1, //this controls vertical_shift, horizontal_shift, rotate and scale (all transform properties)
         vertical_shift: {
             active: false,
             value: "30px", //example formats["10px", "10%", "10vh"]
@@ -45,7 +46,8 @@ These instructions will get you a copy of the project up and running on your loc
             value: "underline",
         },
     }
-};
+}
+```
 
 ### Prerequisites
 
