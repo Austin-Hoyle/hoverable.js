@@ -1,4 +1,4 @@
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Hoverable.JS](relative/path/to/img.jpg?raw=true "Title")
 
 A lightweight Javascript library providing easy to use hover functionalities for text and other elements.
 
