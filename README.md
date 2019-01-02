@@ -35,9 +35,14 @@ When called the hover function searches for four classes. (.hover, .hover-chars,
 | .hover-chars  | Apply effects to every letter in text.  |HMTL|
 | .hover-words  | Apply effects to each word in text.  |HTML|
 | .hover-phrase | Apply effects to entire phrase.  |HTML|
-| .hover_item | Apply effects to entire phrase.  |CSS only|
+| .hover_item | Edit css of all hoverable classes.  |CSS only|
 
 You can choose to style your elements using their classes from the above table, or you can style all hoverable elements at once using the universal .hover_item class.
+
+Example:
+
+###html
+    <h3 class="hover-chars">My Name is Austin Hoyle..</h3>
 
 
 
