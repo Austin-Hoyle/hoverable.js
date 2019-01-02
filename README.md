@@ -16,6 +16,7 @@ Or use the cdn hosted version of the library by adding the following script tag 
 Hoverable gives you access to two main functions,  hover() and hover_advanced(hover_settings_list).
 
 ### hover()
+    The hover function takes no arguments, simply call it at the beginning of of your main script.  If you use jquery call it at the beginning of your $(document).ready(function(){}); clause.
 
 
 ```javascript
